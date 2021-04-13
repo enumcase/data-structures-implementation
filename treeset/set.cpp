@@ -54,38 +54,6 @@ bool set::containshelper(int i, set::treenode *node) {
     
 }
 
-//bool set::inserthelper(int i, set::treenode *node) {
-    
-//    if(node == nullptr) {
-//        node = new treenode(i);
-//        return true;
-//    }
-//
-//    else if(i < node->value) {
-//        if(node->left == nullptr) {
-//            node->left = new treenode(i);
-//            return true;
-//        } else {
-//            return inserthelper(i, node->left);
-//        }
-//    }
-//
-//    else if(i > node->value) {
-//        if(node->right == nullptr) {
-//            node->right = new treenode(i);
-//            return true;
-//        } else {
-//            return inserthelper(i, node->right);
-//        }
-//    }
-//
-//    else {
-//        return false;
-//    }
-    
-    
-//}
-
 
 bool set::contains(int i) const {
     
